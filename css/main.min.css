@@ -205,6 +205,7 @@ body {
   gap: 93px;
 }
 .header__container .header__logo-1 {
+  flex-grow: 1;
   text-decoration: none;
   font-family: "Raleway";
   font-weight: 700;
@@ -214,7 +215,7 @@ body {
   color: black;
   display: flex;
   align-items: center;
-  margin: 24px 0px 25px auto;
+  margin: 24px 0px 25px 1px;
 }
 .header__container .header__logo-2 {
   text-decoration: none;
