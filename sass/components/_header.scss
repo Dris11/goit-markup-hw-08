@@ -114,3 +114,12 @@
         stroke: var(--brand-color);
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .right-navigation {
+        flex-direction: column;
+        padding: 21px 0px 21px 0px;
+        gap: 10px;
+        align-items: flex-start;
+    }
+}
