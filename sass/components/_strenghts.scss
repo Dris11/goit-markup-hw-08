@@ -1,8 +1,8 @@
 .strenghts-section {
-    display: flex;
-
     &__list {
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 30px;
         margin: 94px auto;
     }
@@ -10,9 +10,9 @@
     .strenghts__svg {
         display: flex;
         align-items: center;
+        justify-content: center;
         background: #f5f4fa;
         border-radius: 4px;
-        width: 270px;
         height: 120px;
         margin-bottom: 30px;
     }
@@ -24,6 +24,8 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
 
         color: var(--brand-color-dark);
     }
@@ -34,5 +36,17 @@
         letter-spacing: 0.03em;
 
         color: var(--brand-color-light);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .strenghts__item {
+        flex-basis: calc((100% - 2 * 30px) / 2);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .strenghts__item {
+        flex-basis: calc((100% - 3 * 30px) / 4);
     }
 }

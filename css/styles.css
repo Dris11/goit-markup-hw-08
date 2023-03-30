@@ -403,12 +403,8 @@ body {
 }
 
 /* STRENGHTS SECTION */
-.strenghts-section {
-    display: flex;
-}
 
 .strenghts-section__list {
-    display: flex;
     gap: 30px;
     margin: 94px auto;
 }
@@ -418,7 +414,6 @@ body {
     align-items: center;
     background: #f5f4fa;
     border-radius: 4px;
-    width: 270px;
     height: 120px;
     margin-bottom: 30px;
 }
@@ -645,7 +640,6 @@ body {
 
 .footer__list {
     margin-top: 28px;
-    width: 231px;
 }
 
 .footer__list-item {
@@ -689,7 +683,6 @@ body {
 
 .footer__icon-container {
     display: flex;
-    margin-left: 38px;
     padding-top: 20px;
     gap: 10px;
 }
@@ -707,10 +700,6 @@ body {
     color: var(--brand-color);
 }
 
-.footer-section__svg-title {
-    margin-left: 133px;
-}
-
 .footer-section__svg-title,
 .footer-section__news {
     display: flex;
@@ -723,14 +712,6 @@ body {
     color: #ffffff;
 }
 
-.footer-section__news {
-    margin-left: 248px;
-}
-
-.footer-section__titles {
-    display: flex;
-}
-
 .footer__icon-background {
     background: rgba(255, 255, 255, 0.1);
 }
@@ -738,12 +719,11 @@ body {
 .footer__news-container {
     display: flex;
     gap: 12px;
-    margin-left: 110px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .footer__e-mail-input {
-    width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -912,6 +892,4 @@ body {
     max-width: 1200px;
     margin: 0px auto;
     flex-grow: 1;
-
 }
-

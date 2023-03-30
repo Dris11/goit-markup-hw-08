@@ -18,6 +18,7 @@
         display: flex;
         gap: 30px;
         justify-content: center;
+        flex-wrap: wrap;
 
         .team-section__card {
             background: #ffffff;
@@ -88,5 +89,17 @@
     .team__icon-item:hover,
     .team__icon-item:focus {
         fill: #ffff;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .team-section__card {
+        flex-basis: calc((100% - 2 * 30px) / 2);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .team-section__card {
+        flex-basis: calc((100% - 3 * 30px) / 4);
     }
 }
