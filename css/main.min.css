@@ -365,12 +365,12 @@ body {
 
 @media screen and (min-width: 768px) {
   .request-section {
-    background-image: url("/images/background-T-768.png");
+    background-image: url("../images/background-T-768.png");
   }
 }
 @media screen and (min-width: 1200px) {
   .request-section {
-    background-image: url("/images/background-D-1600.png");
+    background-image: url("../images/background-D-1600.png");
   }
 }
 .strenghts-section__list {
