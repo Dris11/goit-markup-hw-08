@@ -155,7 +155,7 @@ body {
     justify-content: center;
     margin: 0px auto;
 
-    background: url("../images/background.jpg") no-repeat,
+    background: url("../images/background-M-480.png") no-repeat,
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
     background-size: cover;
 }

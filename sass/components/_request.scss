@@ -5,7 +5,7 @@
     justify-content: center;
     margin: 0px auto;
 
-    background: url("../images/background.jpg") no-repeat,
+    background-image: url("../images/background-M-480.png") no-repeat,
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
     background-size: cover;
 
@@ -37,5 +37,17 @@
         margin-bottom: 200px;
 
         cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .request-section {
+        background-image: url("/images/background-T-768.png");
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .request-section {
+        background-image: url("/images/background-D-1600.png");
     }
 }
