@@ -526,6 +526,10 @@ body {
   padding-top: 16px;
   padding-bottom: 30px;
 }
+.team-section__card .team-section__picture {
+  display: flex;
+  justify-content: center;
+}
 
 .team-section__social-icon-container .team__social-icon {
   display: flex;
@@ -551,7 +555,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .team-section__card {
-    flex-basis: calc((100% - 60px) / 2);
+    flex-basis: calc((100% - 460px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
